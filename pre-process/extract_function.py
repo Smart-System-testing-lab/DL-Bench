@@ -169,6 +169,6 @@ external_repo_path = '/home/aliredaq/Desktop/Code-Generation-Benchmark'
 repo_base_path = 'repo_test_v4'
 existing_headers = ["id", 'Function Name'] + [f"Called in functions with {i} calls" for i in range(1, 6)]
 new_headers = ['repo', 'function_name', 'function_definition', 'file_path']
-github_token = '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'
-github_repo_url = "https://github.com/alirezadaghigh99/Code-Generation-Benchmark"
+github_token = ''
+github_repo_url = "https://github.com/v/b"
 read_and_modified_csv(csv_path, repo_base_path, existing_headers, new_headers, github_token, github_repo_url)
